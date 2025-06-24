@@ -19,3 +19,5 @@ def test_non_palindrome():
 def test_singular_palindrome():
     assert is_palindrome("laval") == True
 
+def test_complex_nonpalindrome():
+    assert is_palindrome("toronto") == False
