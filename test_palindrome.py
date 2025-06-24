@@ -9,3 +9,6 @@ def test_palindrome_check():
 
 def test_blank_palindrome():
     assert is_palindrome('') == False
+
+def test_single_palindrome():
+    assert is_palindrome("a") == True

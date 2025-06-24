@@ -16,6 +16,9 @@ def is_palindrome(word):
     if len(dequed_word) < 1:
         return False
 
+    elif len(dequed_word) == 1:
+        return True
+
     else:
         pass
 
