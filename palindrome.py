@@ -11,4 +11,11 @@ def is_palindrome(word):
         pass
     except TypeError:
         pass
-    pass
+
+    dequed_word = deque(word)
+    if len(dequed_word) < 1:
+        return False
+
+    else:
+        pass
+

@@ -6,3 +6,6 @@ from palindrome import is_palindrome
 
 def test_palindrome_check():
     assert is_palindrome(321) == ValueError
+
+def test_blank_palindrome():
+    assert is_palindrome('') == False
