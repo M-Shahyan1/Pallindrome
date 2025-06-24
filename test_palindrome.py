@@ -21,3 +21,6 @@ def test_singular_palindrome():
 
 def test_complex_nonpalindrome():
     assert is_palindrome("toronto") == False
+
+def test_complex_palindrome():
+    assert is_palindrome("Able was I ere I saw Elba") == True

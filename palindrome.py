@@ -10,6 +10,7 @@ def is_palindrome(word):
             return ValueError
         pass
     except TypeError:
+        word = word.upper()
         pass
 
     dequed_word = deque(word)
