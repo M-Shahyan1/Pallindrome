@@ -16,3 +16,6 @@ def test_single_palindrome():
 def test_non_palindrome():
     assert is_palindrome("abc") == False
 
+def test_singular_palindrome():
+    assert is_palindrome("laval") == True
+
