@@ -20,5 +20,11 @@ def is_palindrome(word):
         return True
 
     else:
+        beginning = dequed_word.popleft()
+        end = dequed_word.pop
+        if beginning != end:
+            return False
+        else:
+            pass
         pass
 

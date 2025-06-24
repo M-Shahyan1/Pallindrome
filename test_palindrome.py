@@ -12,3 +12,7 @@ def test_blank_palindrome():
 
 def test_single_palindrome():
     assert is_palindrome("a") == True
+
+def test_non_palindrome():
+    assert is_palindrome("abc") == False
+
